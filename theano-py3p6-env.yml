@@ -1,19 +1,24 @@
-name: tf-py2-env
+name: theano-env
 channels: 
   - conda-forge
   - ioam
 dependencies:
-  - python=2.7
+  - python=3.6
   - numpy
+  - mkl
+  - nose
+  - sphinx
+  - pydot-ng
   - holoviews
   - jupyter
   - pandas
   - matplotlib
   - seaborn
+  - theano
+  - pygpu
   - sklearn
   - pip:
     - tqdm
     - packaging
     - appdirs
-    - tensorflow-gpu
     - holoviews

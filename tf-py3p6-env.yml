@@ -1,9 +1,9 @@
-name: tf-py2-env
+name: tf-py3p6-env
 channels: 
   - conda-forge
   - ioam
 dependencies:
-  - python=2.7
+  - python=3.6
   - numpy
   - holoviews
   - jupyter
