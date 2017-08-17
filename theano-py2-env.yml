@@ -1,0 +1,23 @@
+name: theano-env
+channels: 
+  - conda-forge
+  - ioam
+dependencies:
+  - python=2.7
+  - numpy
+  - mkl
+  - nose
+  - sphinx
+  - pydot-ng
+  - holoviews
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - theano
+  - pygpu
+  - pip:
+    - tqdm
+    - packaging
+    - appdirs
+    - holoviews

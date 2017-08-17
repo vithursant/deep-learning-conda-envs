@@ -1,0 +1,24 @@
+name: pytorch-py3p6-env
+channels: 
+  - conda-forge
+  - ioam
+  - soumith
+dependencies:
+  - python=3.6
+  - numpy
+  - mkl
+  - holoviews
+  - jupyter
+  - pandas
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - cuda80
+  - sklearn
+  - pip:
+    - tqdm
+    - packaging
+    - appdirs
+    - holoviews
+    - gpustat
