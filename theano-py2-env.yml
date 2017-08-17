@@ -1,4 +1,4 @@
-name: theano-env
+name: theano-py2-env
 channels: 
   - conda-forge
   - ioam
