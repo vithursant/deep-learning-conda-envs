@@ -10,10 +10,10 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
-  - sklearn
   - pip:
     - tqdm
     - packaging
     - appdirs
     - tensorflow-gpu
     - holoviews
+    - sklearn

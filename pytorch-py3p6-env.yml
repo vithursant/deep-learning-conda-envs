@@ -15,10 +15,10 @@ dependencies:
   - pytorch
   - torchvision
   - cuda80
-  - sklearn
   - pip:
     - tqdm
     - packaging
     - appdirs
     - holoviews
     - gpustat
+    - sklearn
