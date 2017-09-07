@@ -17,6 +17,7 @@ dependencies:
   - cuda80
   - pip:
     - tqdm
+    - pillow
     - packaging
     - appdirs
     - holoviews

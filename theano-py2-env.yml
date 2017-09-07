@@ -22,3 +22,4 @@ dependencies:
     - appdirs
     - holoviews
     - sklearn
+    - pillow
